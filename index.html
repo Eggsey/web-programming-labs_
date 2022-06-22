@@ -6,38 +6,51 @@
     </head>
 
     <body>
-        <h1>Книжный. Каталог книг</h1>
+        <header>
+            <div class="info"> Телефон: 55-66-77</div>
+            <h1>Книжный. Каталог книг</h1>
+        </header>
 
-        <d1>
-            <dt> Книга "Ни сы" </dt>
-            <dd>
-                <img src="0.1.jpg" width="300"><br>
-                Хочешь жить так, как никогда не жил - начни делать то, что никогда не делал.<br>
-                Цена: 835 &#8381;
-            </dd>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html">Товары</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="promotions.html">Акции</a></li>
+            </ul>
+            <div class="searchbox">
+                <input type="search" placeholder="Поиск по товарам">
+                <button>&#x1F50E;</button>
+            </div>
+        </nav>
+        <main>
+            <div class="card">
+                <a href="product1.html">
+                    <div class="image"><img src="0.1.jpg"></div>
+                    <div class="product-name">Книга "НИ СЫ"</div>
+                    <div class="price">835 &#8381;</div>
+                </a>
+            </div>
 
-        </d1>
-            <dt> Книга "Не ной" </dt>
-            <dd>
-                <img src="0.2.jpg" width="300"><br>
-                Вторая книга от автора искрометного "НИ СЫ".<br>
-                Будь уверен в своих силах и не позволяй сомнениям мешать тебе двигаться вперед<br>
-                (в оригинале You are badass).<br>
-                Цена: 835 &#8381;
-            </dd>
-            </dd>
-        </d1>
+            <div class="card">
+                <a href="product2.html">
+                    <div class="image"><img src="0.2.jpg"></div>
+                    <div class="product-name">Книга "НУ НОЙ"</div>
+                    <div class="price">835 &#8381;</div>
+                </a>
+            </div>
 
-        </d1>
-             <dt> Книга "Ни зя" </dt>
-             <dd>
-                <img src="0.3.jpg" width="300"><br>
-                "НИ ЗЯ".<br>
-                Откажись от пагубных слабостей, обрети силу духа и стань хозяином своей судьбы<br>
-                - это не просто очередная книга по саморазвитию.<br>
-                Цена: 835 &#8381;
-            </dd>
-            </dd>
-        </d1>
+            <div class="card">
+                <a href="product3.html">
+                    <div class="image"><img src="0.3.jpg"></div>
+                    <div class="product-name">Книга "НИ ЗЯ"</div>
+                    <div class="price">835 &#8381;</div>
+                </a>
+            </div>
+    </main>
+
+        <footer>
+            &copy;Книжный магазин, 2022. Книги – только одно из вместилищ, где мы храним то, что боимся забыть!
+        </footer>
     </body>
 </html>
